@@ -16,9 +16,9 @@ import (
 	"time"
 
 	"github.com/redis/go-redis/v9"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/log"
-	"github.com/hibiken/asynq/internal/rdb"
+	"github.com/yagobatista/asynq/internal/base"
+	"github.com/yagobatista/asynq/internal/log"
+	"github.com/yagobatista/asynq/internal/rdb"
 )
 
 // Server is responsible for task processing and task lifecycle management.

@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/errors"
-	"github.com/hibiken/asynq/internal/timeutil"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/cast"
+	"github.com/yagobatista/asynq/internal/base"
+	"github.com/yagobatista/asynq/internal/errors"
+	"github.com/yagobatista/asynq/internal/timeutil"
 )
 
 const statsTTL = 90 * 24 * time.Hour // 90 days

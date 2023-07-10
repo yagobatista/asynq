@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/redis/go-redis/v9"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/errors"
-	"github.com/hibiken/asynq/internal/rdb"
+	"github.com/yagobatista/asynq/internal/base"
+	"github.com/yagobatista/asynq/internal/errors"
+	"github.com/yagobatista/asynq/internal/rdb"
 )
 
 // Inspector is a client interface to inspect and mutate the state of
